@@ -1,7 +1,9 @@
 # Scripta
-### A note taking web-app
+### A note-taking web-app
 
 Hello! Scripta is an idea I've had for some time, and it's basically a note-taking app that lets you insert any text you want, and it lets you mark-it up. You can quote specific parts of the text and attach a note to them. As you make notes, you will be able to see them. I was also trying to add a download feature, but after hours of looking through Stack Overflow, I still couldn't figure out how to generate a textfile with the notes and quotes (please suggest any solutions!). On that note, this is my Launch Project for Full Stack @ Brown and, therefore, my first time creating a web-app, so grill the formatting, style, and code as much as possible!
+
+![](/preview.png)
 
 ## Repository Structure
 I created this with express generator, so there will be a lot of stuff here that I don't use. The first important place to look is the "routes" folder where the index.js file is. This is where I kept the code for the backend, with all the requests and the connection to the MongoDB database. The second important place is the "client" folder, where you can find the App.js and App.css file for the front end.
