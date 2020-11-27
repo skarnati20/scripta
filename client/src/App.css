@@ -1,0 +1,161 @@
+html {
+  background-color: #8083c9;
+}
+
+h1 {
+  text-align: center;
+}
+
+#s:hover {
+  color: crimson;
+  transition: color 300ms;
+}
+
+#c:hover {
+  color: lightsalmon;
+  transition: color 300ms;
+}
+
+#r:hover {
+  color: wheat;
+  transition: color 300ms;
+}
+
+#i:hover {
+  color: mediumseagreen;
+  transition: color 300ms;
+}
+
+#p:hover {
+  color: turquoise;
+  transition: color 300ms;
+}
+
+#t:hover {
+  color:violet;
+  transition: color 300ms;
+}
+
+#a:hover {
+  color: pink;
+  transition: color 300ms;
+}
+
+#everything {
+  font-family: 'Josefin Sans', sans-serif;
+  color: aliceblue;
+}
+
+#title {
+  text-align: center;
+  font-size: 75px;
+}
+
+#both:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#left {
+  float: left;
+  width:70%
+}
+
+#right {
+  float: left;
+  width: 30%;
+}
+
+#textInput {
+  width: 67.2%;
+  resize: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+}
+
+#text-pane {
+  background-color: aliceblue;
+  width: 98%;
+  height: 550px;
+  overflow: scroll;
+}
+
+#actual-text {
+  color: black;
+}
+
+#delete-button {
+  width: 15%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+}
+
+#submit-button {
+  width: 15%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+}
+
+#submit {
+  align-items: center;
+}
+
+#right-scroll {
+  height: 625px;
+  overflow:auto;
+  margin:15px -300px 15px 15px;
+  padding-right:300px;
+}
+
+#submit-notes {
+  resize: none;
+  width: 98.2%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+}
+
+#quotes-notes {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  width: 100%;
+}
+
+#view {
+  resize: none;
+}
+
+#quotes-column {
+  display: inline-grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#quotes-textarea {
+  resize: none;
+  
+}
+
+#notes-column {
+  display: inline-grid;
+  align-items: center;
+}
+
+#notes-textarea {
+  resize: none;
+}
+
+#viewing-notes {
+  align-self: center;
+  color: black;
+  background-color: aliceblue;
+  width: 377px;
+  height: 300px;
+  overflow: scroll;
+}
+
+#download-button {
+  width: 98.2%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+}
