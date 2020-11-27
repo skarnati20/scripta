@@ -5,7 +5,6 @@ import './App.css';
 
 class App extends Component {
   
-  {/* establishing the states required for the app */}
   state = {
     texts: [],
     notes: [],
@@ -46,15 +45,17 @@ class App extends Component {
     document.addEventListener("keydown", this.checkKeyPressed, false);
   };
 
-    {/* the function for the locked quote mechanism */}
+    
   checkKeyPressed = (evt) => {
+    {/* the function for the locked quote mechanism */}
     if (evt.ctrlKey && evt.keyCode == "76") {
       this.setState({ lockedQuote: window.getSelection().toString() })
     }
   }
 
-  {/* the function for the submit button on the right-hand side */}
+
   handleClick = (e) => {
+    {/* the function for the submit button on the right-hand side */}
     var text = $("#submit-notes").val();
     axios.post('/notes', {
       name: text
