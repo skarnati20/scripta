@@ -23,3 +23,4 @@ There aren't many that I know of. But occasionally some of the quotes and notes 
 Sai Karnati
 
 ## Video
+Here is the link for the [video](https://youtu.be/o-S0Jlwf9AU)
