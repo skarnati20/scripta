@@ -22,5 +22,5 @@ There aren't many that I know of. But occasionally some of the quotes and notes 
 ## Contributor(s)
 Sai Karnati
 
-## Video
+## Installation/How-to-run Video 
 Here is the link for the [video](https://youtu.be/o-S0Jlwf9AU)
